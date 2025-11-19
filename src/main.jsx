@@ -20,7 +20,12 @@ const route = createBrowserRouter(
           path: "/",
           element: <DashBoard />
         }],
-      errorElement: <h1>Ok I found the error</h1>
+      errorElement: 
+      
+    <div className="flex flex-col items-center justify-center h-screen text-center px-4">
+      <h1 className="text-3xl font-bold mb-2 text-red-600">Oops! Something went wrong</h1>
+      <p className="text-gray-600 text-lg">We couldn't load this page right now.</p>
+    </div>
     }
 
   ]
