@@ -28,7 +28,7 @@ function NavigationBar() {
 
     
         <button
-          onClick={() => navigate("/dashboard")}
+          onClick={() => navigate("/")}
           className="px-4 py-2 rounded-lg text-sm font-medium border transition hover:scale-95"
           style={{
             background: theme.primary,
